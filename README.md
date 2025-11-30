@@ -1,24 +1,31 @@
-# README
+# Sevalla Rails Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An example Rails 8.1 application for Sevalla platform using Docker for Production only.
 
-Things you may want to cover:
+## Prerequisites
 
-* Ruby version
+- Ruby 3.2+
+- Rails 8.1
+- PostgreSQL
+- Docker
 
-* System dependencies
+## Setup
 
-* Configuration
+For local development, Docker is set up for Production only.
 
-* Database creation
+```bash
+bin/setup
+```
 
-* Database initialization
+To run the application, execute:
 
-* How to run the test suite
+```bash
+bin/dev
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+To test the application, execute:
 
-* Deployment instructions
+```bash
+bin/ci
+```
 
-* ...
