@@ -22,4 +22,4 @@ echo "Database preparation successful. Starting Thruster server (relying on 0.0.
 export BIND_ADDRESS="0.0.0.0"
 
 # Execute the command
-bundle exec thrust rails server
+bundle exec rails server
